@@ -9,6 +9,7 @@ edition = "2021"
 dialoguer = "0.11.0"
 native_db = "0.5.3"
 native_model = "0.4.11"
-peroxide = { version = "0.34.4", features = ["serde", "nc"] }
+natural_unit = "0.1.4"
+peroxide = { version = "0.34.4", features = ["serde", "parquet"] }
 rayon = "1.8.1"
 serde = { version = "1.0.196", features = ["derive"] }
